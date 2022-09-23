@@ -1,0 +1,30 @@
+{
+  "name": "ncu-test-import-as-module",
+  "description": "Test importing npm-check-updates as a module",
+  "version": "0.0.0",
+  "author": {
+    "name": "Raine Revere",
+    "email": "raine@cybersemics.org",
+    "url": "https://github.com/raineorshine"
+  },
+  "bugs": "",
+  "engines": {
+    "node": ">=14"
+  },
+  "keywords": [],
+  "homepage": "",
+  "license": "ISC",
+  "main": "build/index.js",
+  "repository": "",
+  "scripts": {
+    "build": "tsc",
+    "start": "node build/index.js"
+  },
+  "dependencies": {
+    "npm-check-updates": "^16.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^18.7.18",
+    "typescript": "^4.8.3"
+  }
+}
